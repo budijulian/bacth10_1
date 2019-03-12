@@ -1,0 +1,28 @@
+#profile {
+    color: rgb(28, 28, 177);
+    align-items: center;
+    text-align: center;
+}
+
+
+.pilihan {
+    color: red;
+    font-size: 150%
+}
+
+.hoby {
+    color: aquamarine;
+
+}
+
+.akun {
+    color: chocolate;
+}
+
+.judul1 {
+    color: rgb(94, 255, 0);
+}
+
+.judul2 {
+    color: rgb(25, 0, 255);
+}
