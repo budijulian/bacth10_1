@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Final Exercise Chapter 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+</head>
+
+<body>
+    <h1 style="color:blue"> CALKULATOR SEDERHANA</h1>
+    <script>
+        //budi julian
+        var nilai1 = parseInt(prompt('Masukan nilai pertama :'));
+        var nilai2 = parseInt(prompt('Masukan nilai kedua :'));
+        var pilihan = prompt('Masukan pilihan? : tambah / kurang / kali / bagi / pangkat / min / max');
+        var hasil;
+        if (pilihan == 'tambah') {
+            hasil = nilai1 + nilai2;
+            alert(nilai1 + '+' + nilai2 + '=' + hasil);
+        } else if (pilihan == 'kurang') {
+            hasil = nilai1 + nilai2;
+            alert(nilai1 + '-' + nilai2 + '=' + hasil);
+        } else if (pilihan == 'kali') {
+            hasil = nilai1 * nilai2;
+            alert(nilai1 + '*' + nilai2 + '=' + hasil);
+        } else if (pilihan == 'bagi') {
+            hasil = nilai1 / nilai2;
+            alert(nilai1 + '/' + nilai2 + '=' + hasil);
+        } else if (pilihan == 'pangkat') {
+            hasil = Math.pow(nilai1, nilai2);
+            alert(nilai1 + '^' + nilai2 + '=' + hasil);
+        } else if (pilihan == 'min') {
+            hasil = Math.min(nilai1, nilai2);
+            alert('Nilai Min =' + hasil);
+        } else if (pilihan == 'max') {
+            hasil = Math.max(nilai1, nilai2);
+            alert('Nilai Min = ' + hasil);
+        };
+
+
+
+        // };
+        // switch (pilihan) {
+        //     case tambah:
+        //         hasil = nilai1 + nilai2;
+        //         alert(hasil);
+        //         break;
+        //     case kurang:
+        //         alert(nilai1 - nilai2);
+        //         break;
+        //     case kali:
+        //         alert(nilai1 * nilai2);
+        //         break;
+        //     case bagi:
+        //         alert(nilai1 / nilai2);
+        //         break;
+        //     default:
+        //         break;
+        // };
+    </script>
+</body>
+
+</html>
